@@ -67,7 +67,7 @@ We compared these to see which gave best predictive performance.
 - From classification reports:  
   - For Random Forest: class “0” (on-time) had high recall (0.89), but class “1” (late) had lower recall (0.54)  
   - For Decision Tree: class “0” recall was ~0.97 (very high), but class “1” recall ~0.49  
-**Interpretation:** The model is much better at predicting “on time” than “late” in some cases. For business use you might want to improve recall of the “late” class (so you catch more delays).
+**Interpretation:** The model is much better at predicting “on time” than “late” in some cases. For business use you might want to improve recall of the “late” class.
 
 ---
 
